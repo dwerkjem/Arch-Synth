@@ -13,7 +13,7 @@ bool Init(const char *name)
   if( name == NULL )
   {
       // Try to open the default device
-      err = snd_pcm_open( &_soundDevice, "plughw:0,0", SND_PCM_STREAM_PLAYBACK, 0 );
+      err = snd_pcm_open( &_soundDevice, "plughw:2,0", SND_PCM_STREAM_PLAYBACK, 0 );
   }
   else
   {
@@ -123,7 +123,7 @@ bool Init(const char *name)
 
   return true;
 }
-
+///here we need to create sound
 bool UnInit()
 {
   snd_pcm_close (_soundDevice);
