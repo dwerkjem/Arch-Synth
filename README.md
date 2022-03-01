@@ -2,7 +2,7 @@
 
 ## what is Arch Synth?
 
-Arch Synth is a [Modular software synthesizer](https://en.wikipedia.org/wiki/Modular_synthesizer#Modular_software_synthesizers_(alphabetical))
+Arch Synth is a open source [Modular software synthesizer](https://en.wikipedia.org/wiki/Modular_synthesizer#Modular_software_synthesizers_(alphabetical))
 
 ## Credits:
 
